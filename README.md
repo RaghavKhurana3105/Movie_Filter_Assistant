@@ -1,16 +1,14 @@
-# P1_template
-This is your first project assignment.
-You will clone this project and solve the tasks as described in the [assignment documentation on canvas](https://canvas.kth.se/courses/50052/files/8072699?module_item_id=931314). Once completed, you will push your changes back to github.
+# About
 
+A movie filtering assistant that can filter movies from a database / file through inputs on a CLI, talking filters
+such as movie actors, release year, total revenue + other miscellaneous filters that return desired list of movies.
 
-Content of the files:
+# Content of the files:
 
 ## imdb.py
 This is the "main" file that you will run to see the resulting output to the terminal.
-You have to fill out the content of some functions here.
 
-Some examples to run the file, (see the assignment documentation for examples on expected output).
-
+### Example inputs in CLI
 ```sh
 python imdb.py
 python imdb.py --actors "Jennifer Lawrence"
@@ -20,9 +18,11 @@ python imdb.py --actors "Daniel Radcliffe" "Emma Watson" --genres "Fantasy"
 ```
 
 ## data
-In this folder, there is a `imdb_movies.csv` file that contains all the data needed for the tasks. 
-Part of the exercise is to read the csv file. Do not change this file.
+Contains a `imdb_movies.csv` file that contains all the data that the CLI Interface can parse and return depending on the filters added by the user. The user can apply the following filters: 
 
-## tests
-This folder contains a set of test files. You will NOT make any changes in these, but rather use them to test
-if your code is doing what is expected.
+- Genre of films
+- Actors of the films
+- Release year of movies
+
+Moreover, the user can sort the filtered lists in ascending/ descending order using the above parameters and also set a desired number of movies which must be returned in the output list.
+
