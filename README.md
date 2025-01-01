@@ -23,6 +23,7 @@ Contains a `imdb_movies.csv` file that contains all the data that the CLI Interf
 - Genre of films
 - Actors of the films
 - Release year of movies
+- Total revenue
 
 Moreover, the user can sort the filtered lists in ascending/ descending order using the above parameters and also set a desired number of movies which must be returned in the output list.
 
