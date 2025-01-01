@@ -6,7 +6,7 @@ such as movie actors, release year, total revenue + other miscellaneous filters 
 # Content of the files:
 
 ## imdb.py
-This is the "main" file that you will run to see the resulting output to the terminal.
+This is the "main" file that you will run via the CLI to see the resulting output to the CLI.
 
 ### Example inputs in CLI
 ```sh
