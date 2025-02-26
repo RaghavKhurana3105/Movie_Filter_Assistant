@@ -27,7 +27,7 @@ The imdb_movies.csv file serves as the primary data source for the Command-Line 
 
 Additionally, the CLI allows users to sort the filtered results in ascending or descending order based on the above parameters. Users can also specify the number of movies to display in the output list, tailoring the results to their preferences.
 
-### Example inputs in CLI
+# Example inputs in CLI
 ```sh
 python imdb.py
 python imdb.py --actors "Salman Khan"
