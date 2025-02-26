@@ -8,6 +8,16 @@ such as movie actors, release year, total revenue + other miscellaneous filters 
 ## imdb.py
 This is the "main" file that you will run via the CLI to see the resulting output to the CLI.
 
+## data folder
+The imdb_movies.csv file serves as the primary data source for the Command-Line Interface (CLI) application, enabling users to parse and retrieve movie information based on specified filters. Users can refine their search using the following criteria:
+
+- **Genre:** Filter movies by their genre(s).
+- **Actors:** Select films featuring specific actors.
+- **Release Year:** Choose movies released in a particular year.
+- **Total Revenue:** Filter films based on their box office earnings.
+
+Additionally, the CLI allows users to sort the filtered results in ascending or descending order based on the above parameters. Users can also specify the number of movies to display in the output list, tailoring the results to their preferences.
+
 ### Example inputs in CLI
 ```sh
 python imdb.py
@@ -17,13 +27,4 @@ python imdb.py --years 2022
 python imdb.py --actors "Daniel Radcliffe" "Emma Watson" --genres "Fantasy"
 ```
 
-## data
-Contains a `imdb_movies.csv` file that contains all the data that the CLI Interface can parse and return depending on the filters added by the user. The user can apply the following filters: 
-
-- Genre of films
-- Actors of the films
-- Release year of movies
-- Total revenue
-
-Moreover, the user can sort the filtered lists in ascending/ descending order using the above parameters and also set a desired number of movies which must be returned in the output list.
 
