@@ -228,7 +228,7 @@ def main():
     )
 
     arg_parser.add_argument(
-    "--years", nargs="*", type=int, help="Release year(s) of movies you would like to see in your list of movies"
+    "--years", nargs="*", type=int, default=0, help="Release year(s) of movies you would like to see in your list of movies"
     )
 
     arg_parser.add_argument(
